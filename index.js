@@ -3,6 +3,7 @@ const { listContacts, getContactById, addContact, removeContact } = require("./c
 
 const { Command } = require("commander");
 const program = new Command();
+
 program
   .option("-a, --action <type>", "choose action")
   .option("-i, --id <type>", "user id")
